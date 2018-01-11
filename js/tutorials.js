@@ -13,5 +13,5 @@ var tutorials = [
 
 for(i = 0; i < tutorials.length; i++) {
     var tutorialDiv = document.getElementById('tutorials');
-    tutorialDiv.innerHTML += tutorials[i].join('') + '<br>';
+    tutorialDiv.innerHTML += tutorials[i].join('') + '<li>';
 }
