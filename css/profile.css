@@ -1,0 +1,107 @@
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background: lightgrey;
+}
+
+
+/* Nav bar code */
+.item-2, .item-3,  .item-4, .item-5 {
+    padding-top: 0.5em;
+    font-size: 2em;
+ }
+ 
+ .container {
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(70, 70, 70, 0.2);
+    margin-top: 0;
+    padding: 2em;
+    color: #fff9af ;
+ } 
+ 
+ .item {
+    padding-right: 1em;
+ }
+ 
+ .item-1 {
+  color: white;
+  margin-right: auto;
+  font-size: 3em;
+ }
+ 
+ 
+ /* ADD #home ID to “STAR FACTOR”
+ And #page ID to other nav bar elements */
+ 
+ #home {
+    color: white;
+ }
+ 
+ #page {
+  color:#fff9af ;
+ }
+ 
+ 
+ /* Footer CSS */
+ 
+ .main-footer {
+    color: #fff9af ;
+    font-family: Helvetica;
+    text-align: center;
+    background: black;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+ }
+
+
+
+ /* Profile CSS */
+ .video-col {
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.profile-container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.profile-col {
+    display: inline-block;
+    width: 30%
+    /* vertical-align: top; */
+    /* padding-left: 1em;
+    padding-right: 1em; */
+}
+.profile-photo {
+    width: 170px;
+    height: 170px;
+
+}
+
+.video-col {
+    display: inline-block;
+    width: 70%
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 2em;
+}
+
+.vid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1.profile-name{
+    font-size: 4em;
+}
+
+h3 {
+    color: #707070;
+}

@@ -1,0 +1,146 @@
+/* Selectors are layed out alphabetically and by type: HTML , Classes, and Ids.  */
+
+
+/* H T M L */
+
+
+* {
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 5px solid  #fff9af;
+    border-radius: 10px;
+    padding: 1em;
+    font-family: Helvetica;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #707070;
+  }
+
+
+h1 {
+  font-size: 4em;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff9af;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  margin-top: 0px;
+  font-family: Helvetica;
+  margin-bottom: 1em;
+}
+
+
+
+
+/* C L A S S E S */
+
+
+.item-2, .item-3,  .item-4, .item-5 {
+    padding-top: 0.5em;
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(70, 70, 70, 0.2);
+    margin-top: 0;
+    padding: 2em;
+    color: #fff9af;
+}
+
+.item {
+    padding-right: 1em;
+}
+
+.item-1 {
+  color: white;
+  margin-right: auto;
+  font-size: 3em;
+}
+
+.main-footer {
+    color: #fff9af;
+    font-family: Helvetica;
+    text-align: center;
+    background: black;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-top: 0;
+}
+
+
+.sticky {
+    background-image: url('../imgs/main(new).jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 50px);
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* I D S */
+
+#mission {
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    padding: 10px 20px 20px 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    margin-left: 40%;
+}
+
+#home {
+    color: white;
+}
+
+#page {
+  color:#fff9af;
+}
+
+/* M E D I A - Q U E R I E S */
+
+@media (max-width: 1100px ) {
+    p {
+        font-size: 1em;
+    }
+    .item-2, .item-3,  .item-4, .item-5 {
+        font-size: 1em;
+    }
+    .item-1 {
+        font-size: 1em;
+    }
+    #mission {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+}

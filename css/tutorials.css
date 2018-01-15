@@ -1,28 +1,128 @@
-/* body {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 5em;
-} */
 
+/* H T M L */
 
-h1 {
-  font-size: 4em;
-  margin: 0 auto;
-  text-align: center;
+* {
+  margin: 0;
+}
+a {
+  color: #fff9af;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+br {
+  padding-top: 1em;
+}
+
+body {
+  background: lightgrey;
+  font-family: Helvetica;
+  justify-content: center;
 }
 
 li {
+  justify-content: center;
   font-family: Helvetica;
-  margin: 1em;
   font-size: 2em;
   list-style-type: none;
+  margin-bottom: 0.1em;
 }
 
+h2 {
+  color: black;
+  font-size: 3em;
+  background: lightgrey;
+  text-align: center;
+  font-family: Helvetica;
+  padding: 0.5em;
+  padding-right: 0em;
+}
+
+/* C L A S S E S */
+
+.item-1 {
+  color: white;
+  margin-right: auto;
+  font-size: 3em;
+}
+
+.item-2, .item-3,  .item-4, .item-5 {
+  padding-top: 0.5em;
+  font-size: 2em;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(70, 70, 70, 0.2);
+  margin-top: 0;
+  padding: 2em;
+  color: #fff9af;
+}
+
+.item {
+  padding-right: 1em;
+}
+
+.tutorial-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+
+.main-footer {
+  color: #fff9af;
+  font-family: Helvetica;
+  text-align: center;
+  background: black;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin-top: 3em;
+  position: absolute;
+  bottom: 0;
+}
+
+/* .sticky {
+  margin-top: 0 px;
+  background: #707070;
+  min-height: 100vh;
+  width: 100%;
+
+} */
 
 /* IDS */
 
 #tutorials {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: #707070;
     text-align: center;
-    padding-top: 2em;
     font-family: Helvetica;
+    border: 10px solid white;
+    box-shadow: 0 0 50px black;
+    margin-bottom: 2em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#home {
+  color: white;
+}
+
+
+/* M E D I A Q U E R I E S  */
+
+@media (max-width: 950px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  .item-2, .item-3,  .item-4, .item-5 {
+    font-size: 2em;
+}
+.item-1 {
+    font-size: 2em;
+  }
 }
